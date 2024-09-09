@@ -1,1 +1,32 @@
+img { /*tamño de las fotos en la tabla*/
+    width: 80px;
+    height: 80px;
+}
+.tabla{
+    width: 70%;
+    border: 1px solid; /*borde solido exterior*/
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.tabla th{
+    background-color: #F10609;/*fondo rojo de titulos*/
+    color: #fff; /*texto blanco de texto*/
+    font-size: 20px; /*tamaño de texto*/
+}
+.tabla,th,td{
+    border: 1px solid;/*borde solido interno-externo*/
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px; /*espaciado de texto*/
+    text-align: center;/*texto*/
+}
+.tabla tr:hover{
+    background-color: #F86163; /*sobre mouse sombrea tabla*/
+    /*eliminado solo cubre un cuadro*/
+}
+.tabla td:hover{
+    background-color: #F86163;
+    color: #fff; /*texto en blanco*/
+}
 
